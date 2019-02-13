@@ -14,9 +14,15 @@ function speed(){
 	speed_ms = speedInp * 1000 / 3600;
 	speed_out.innerText = 'Скорость ' + speedInp + ' км/ч' + ' равна ' + Math.round(speed_ms) + ' м/с';
 	}
-}
+};
 
 speedBtn.addEventListener('click', speed);
+
+let zod_btn = document.getElementById('zod_btn');
+
+import {age} from './age.js';
+
+zod_btn.addEventListener('click', age);
 
 
 // function age(){

@@ -1,6 +1,4 @@
 
-let zod_btn = document.getElementById('zod_btn');
-
 function age(){
 	let age_inp = document.getElementById('age_inp').value;
 	let zod_out = document.querySelector('.zod_out');
@@ -91,7 +89,6 @@ function age(){
 
 	zod_out.innerText = 'Ваш знак зодиака - ' + znak;
 }
-}
+};
 
-
-zod_btn.addEventListener('click', age);
+export {age};
