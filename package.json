@@ -1,0 +1,21 @@
+{
+  "name": "amo_webpack",
+  "version": "1.0.0",
+  "description": "yarn, webpack, node",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/dkovskij/amo_webpack.git",
+  "keywords": [],
+  "author": "dkovskij <dkovskij@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkovskij/amo_webpack/issues"
+  },
+  "homepage": "https://github.com/dkovskij/amo_webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

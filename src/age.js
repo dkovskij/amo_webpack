@@ -1,22 +1,5 @@
-let speedBtn = document.getElementById('speed_btn');
-let speed_span = document.getElementById('speed_span');
-
 
 let zod_btn = document.getElementById('zod_btn');
-
-
-function speed(){
-	let speedInp = document.getElementById('speed_inp').value;
-	let speed_out = document.querySelector('.speed_out');
-	if ( isNaN(speedInp) || !speedInp || speedInp <= 0 ) {
-	 speed_out.innerText = 'Пожалуйста, введите число';
-	} else {
-	speed_ms = speedInp * 1000 / 3600;
-	speed_out.innerText = 'Скорость ' + speedInp + ' км/ч' + ' равна ' + Math.round(speed_ms) + ' м/с';
-	}
-}
-
-speedBtn.addEventListener('click', speed);
 
 function age(){
 	let age_inp = document.getElementById('age_inp').value;

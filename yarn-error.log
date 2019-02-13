@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Family\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Family\AppData\Local\Microsoft\WindowsApps;C:\Users\Family\AppData\Roaming\npm;C:\Users\Family\AppData\Local\GitHubDesktop\bin;C:\TotalComPU69
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: K:\website\alarm\amo_webpack\package.json: Unexpected token } in JSON at position 559
+      at JSON.parse (<anonymous>)
+      at C:\Users\Family\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Family\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\Family\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "amo_webpack",
+    "version": "1.0.0",
+    "description": "yarn, webpack, node",
+    "private": true,
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "git+https://github.com/dkovskij/amo_webpack.git",
+    "keywords": [],
+    "author": "dkovskij <dkovskij@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dkovskij/amo_webpack/issues"
+    },
+    "homepage": "https://github.com/dkovskij/amo_webpack#readme",
+    "devDependencies": {
+      "webpack": "^4.29.3",
+      "webpack-cli": "^3.2.3"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
