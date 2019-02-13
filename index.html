@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Тест</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Перевод скорости</h1>
+    <div class="speed">
+
+      <input type="text" id="speed_inp" placeholder="Введите скорость"><br>
+      <span>км/ч</span>
+
+    </div>
+
+    <div class="speed_res">
+
+      <button id="speed_btn">
+        Перевести в м/с
+      </button>
+
+    </div>
+
+    <div class="speed_out">
+      Введите скорость в километрах в час
+    </div>
+
+    <h1>Знаки зодиака</h1>
+    <div class="age">
+
+      <input type="date" id="age_inp" placeholder="Введите дату рождения">
+
+    </div>
+
+    <div class="zod_res">
+
+      <button id="zod_btn">
+        Узнать свой знак зодиака
+      </button>
+
+    </div>
+
+    <div class="zod_out">
+      
+    </div>
+    
+    <script>
+      $(document).ready(function(){
+      $("<form class='autor'>Авторизация</form>").appendTo('body');
+      $("<input type='text' placeholder='Ваш логин' class='login_inp'></input>").appendTo('.autor')
+      $(".autor").css({"background": "#d7d7d8", "text-align": "center", "width": "100%", "height": "200px"});
+      $(".login_inp").css({"display": "block", "text-align": "center", "margin-left": "45%", "margin-top": "20px"})
+      $("<input type='password' placeholder='Ваш пароль' class='pass_inp'></input>").appendTo('.autor')
+      $(".pass_inp").css({"display": "block", "text-align": "center", "margin-left": "45%", "margin-top": "20px"})
+      $("<button id='submit_btn'>Войти</button>").appendTo('.autor');
+      $("#submit_btn").css({"text-align": "center", "width": "80px", "height": "20px", "margin-top": "20px"})
+      
+      $("#submit_btn").click(function(){
+        $login = $(".login_inp").val();
+        $password = $(".pass_inp").val();
+
+        $(".autor").html("Здравствуйте, " + $login + "!")
+      })
+    })
+    </script>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

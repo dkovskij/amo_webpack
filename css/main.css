@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+  background: #8db9ca;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+.speed, .age {
+	text-align: center;
+}
+
+#speed_inp, #age_inp {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.speed_res, .zod_res {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#speed_btn {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+}
+
+#zod_btn {
+	width: 300px;
+	height: 30px;
+	font-size: 20px;
+}
+
+.speed_out, .zod_out {
+	margin-top: 30px;
+	text-align: center;
+}
